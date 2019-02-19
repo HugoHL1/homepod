@@ -85,10 +85,35 @@ nav.header_nav ul{
 
 .shop_item1{
     width: 980px;
-    border: solid rgb(30, 30, 30) 1px;
+	border-style: solid;
+	border-top: 1px solid #707070;
+	border-bottom: 1px solid #707070;
+	border-left: none;
+	border-right: none;
+	padding: 20px;
+	padding-right: 0px;
+	display: flex;
 }
 
-.shop_item1_img_1{
-    width: 450px;
-    height: auto;
+
+.shop_item1_img_1 img{
+	width: 100px;
+	height: auto;
+	margin-left: 10px;
+	
+}
+
+.shop_item1_horizontale1{
+	margin-left: 40px;
+	border-bottom: 1px solid #707070;
+	height: 45px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.shop_item1_form1 input{
+	width: 20px;
+	border-radius: 10px;
+	border-style: none;
 }
