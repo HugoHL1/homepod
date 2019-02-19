@@ -9,6 +9,10 @@
 	src: url('../fonts/SF/SF-Pro-Display-Thin.otf');
 }
 
+@font-face {
+	font-family: "SFmedium";
+	src: url('../fonts/SF/SF-Pro-Display-Medium.otf');
+}
 #techspec_body{
 	margin: 0;
 	padding: 0;
@@ -72,6 +76,7 @@ nav.header_nav ul{
     margin: 0 auto;
     display: flex;
 	justify-content: space-between;
+	color: black;
 }
 .techspec_boxtitle{
 	font-size: 40px;

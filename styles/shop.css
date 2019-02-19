@@ -68,7 +68,7 @@ nav.header_nav ul{
     display: flex;
     padding: 20px;
     box-sizing: border-box;
-    
+
 }
 
 .shop_banner_icon{
@@ -89,6 +89,6 @@ nav.header_nav ul{
 }
 
 .shop_item1_img_1{
-    width: 150px;
+    width: 450px;
     height: auto;
 }
