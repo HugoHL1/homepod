@@ -117,3 +117,11 @@ nav.header_nav ul{
 	border-radius: 10px;
 	border-style: none;
 }
+
+.shop_item1_subhorizontale{
+	margin-left: 40px;
+	height: 45px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
