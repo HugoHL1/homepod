@@ -74,26 +74,35 @@ nav.header_nav ul{
 #techspec_main{
     width: 980px;
     margin: 0 auto;
-    display: flex;
-	justify-content: space-between;
 	color: black;
+	flex-direction: column;
 }
 .techspec_boxtitle{
-	font-size: 40px;
+	font-size: 44px;
 	text-align: center;
+	font-family: "SFmedium"
 }
 .techspec_desc{
 	font-size: 24px;
 	text-align: center;
+
 }
-.techspec_leftbox, .techspec_rightbox{
+.techspec_leftbox, .techspec_rightbox, #techspec_rightbox_leftmove{
     width: 40%;
-    margin-top: 60px;
 	position: relative;
 }
+
 .techspec_illustration{
 	heigt: auto;
 	width: 400px;
+}
+.techspec_submain{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 100px;
+}
+.techspec_submain.next{
+	margin-top: 180px;
 }
 .techspec_textcard{
 	height: 400px;
@@ -106,8 +115,16 @@ nav.header_nav ul{
 	margin: 0 auto;
 	color: white;
 	text-align: center;
+	transition: transform 0.3s;
+	line-height: 1.2;
 }
+.techspec_rightbox:hover .techspec_textcard{
+	transform: translate(600px)
 
+}
+#techspec_rightbox_leftmove:hover .techspec_textcard{
+	transform: translate(-600px)
+}
 .techspec_cardtitle{
 	font-size: 24px;
 }
@@ -115,4 +132,8 @@ nav.header_nav ul{
 .techspec_textcard_subtext{
 	margin: 12px;
 	font-family: "SFthin";
+}
+
+#techspec_lastsubmain{
+	margin-bottom: 200px;
 }
