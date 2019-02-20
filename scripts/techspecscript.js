@@ -1,4 +1,3 @@
-
 function Scroll(){
 let ypos = window.pageYOffset
 let leftBoxtitleOne = document.querySelector("#techspec_boxtitle_animl")
@@ -23,6 +22,5 @@ let leftBoxparaTwo = document.querySelector("#techspec_desc_animr")
     leftBoxtitleTwo.classList.add('techspec_boxtitle_effectr')
     leftBoxparaTwo.classList.add('techspec_desc_effectr')
    }
-
 }
 window.addEventListener("scroll",Scroll)
