@@ -1,7 +1,7 @@
 body{
 	margin: 0;
 	padding: 0;
-	color: #444;
+	color: white;
 	background-color: rgb(29, 29, 34);
 	font-family: 'SF', sans-serif;
 }
@@ -63,7 +63,6 @@ nav.header_nav ul{
 }
 
 .shop_banner{
-    background-color: wheat;
     height: 78px;
     display: flex;
     padding: 20px;
@@ -95,6 +94,11 @@ nav.header_nav ul{
 	display: flex;
 }
 
+.shop_item1_box{
+	flex-direction: column;
+	width: 100%;
+	padding-right: 40px;
+}
 
 .shop_item1_img_1 img{
 	width: 100px;
@@ -112,6 +116,23 @@ nav.header_nav ul{
 	justify-content: space-between;
 }
 
+.shop_item1_h2 h2{
+	margin:0 ;
+}
+
+.shop_item_form_prix{
+	display: flex;
+	justify-items: right;
+}
+
+.shop_item1_Prix1 h3{
+	margin: 0;
+}
+
+.shop_item1_form1{
+	margin-right: 20px;
+}
+
 .shop_item1_form1 input{
 	width: 20px;
 	border-radius: 10px;
@@ -124,4 +145,49 @@ nav.header_nav ul{
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
+}
+
+.shop_item1_ref1 p{
+	color: #707070;
+	font-size: 12px;
+}
+
+.shop_item1_recycle{
+	margin-left: 40px;
+}
+
+.shop_item_price_box{
+	border-top: 1px solid #707070;
+	border-bottom: 1px solid #707070;
+	border-left: none;
+	border-right: none;
+	width: 1000px;
+}
+
+.shop_item_price_horizontale{
+	display: flex;
+	justify-content: space-between;
+}
+
+.shop_item_price_horizontale_right{
+	display: flex;
+	border-bottom: 1px solid #707070;
+}
+
+.shop_item_price_horizontale_right_p{
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+#shop_price{
+	margin-left: 35px;
+}
+
+.shop_item_price_totaux_total{
+	display: flex;
+	
+}
+
+.shop_item_price_totaux_total p{
+	font-size: 20px;
 }
