@@ -3,20 +3,31 @@ body{
 	padding: 0;
 	color: #444;
 	background-color: rgb(29, 29, 34);
-	font-family: 'SF', sans-serif;
+	font-family: 'SFLight', sans-serif;
 }
 
 @font-face {
-	font-family: "SF";
+	font-family: "SFLight";
 	src: url('../fonts/SF/SF-Pro-Display-Light.otf');
 }
-
+@@font-face {
+	font-family: "SFTextSemiBoldItalic";
+	src: url('../fonts/SF/SF-Pro-Text-SemiboldItalic.otf');
+}
+@font-face {
+	font-family: "SFCompactTextBold";
+	src: url('../fonts/SF/SFCompactText-Bold.otf');
+}
+@font-face {
+	font-family: "SFProDisplaySemiBold";
+	src: url('../fonts/SF/SF-Pro-Display-Semibold.otf');
+}
 /*HEADER*/
 
 .header_container{
 	display: flex;
 	justify-content: space-between;
-	width: 1350px;
+	width: 90%;
 	margin: 0 auto;
 	height: 115px;
 	border-bottom: 1px solid #707070;
@@ -55,7 +66,92 @@ nav.header_nav ul{
 
 /*BODY*/
 
+.index_title{
+  margin: 0 auto;
+  width: 100%
+}
 
+.index_title h1{
+	margin: 40px auto;
+	width: 50%;
+	font-family: "SFProDisplaySemiBold";
+	text-align: center;
+	font-size: 4.9em;
+	color: #FFF;
+}
+.index_imageHomePod{
+  margin: 100px auto;
+  width: 700px;
+  height: 100%;
+  display: block;
+  position: relative;
+}
+
+
+/* .index_imageHomePod2{
+  margin: 0 auto;
+  width: 840px;
+  height: 4000px;
+  display: block;
+  position: sticky;
+} */
+.index_container_animation{
+  margin: 0 auto;
+  width: 770px;
+  position: absolute;
+  top: 400px;
+  left: 370px;
+}
+/* .index_container_animation2{
+  position: sticky;
+} */
+
+
+.imgHomePod2{
+	animation: imgHomePodsizing 1s;
+	animation-fill-mode: forwards;
+  /* transform: scale(0.60); */
+}
+@keyframes imgHomePodsizing{
+from {
+  transform: scale(1);
+  }
+to {
+  transform: scale(0.60);
+  }
+}
+.imgHomePod3{
+	animation: imgHomePodleft 1s;
+	animation-fill-mode: forwards;
+}
+@keyframes imgHomePodleft{
+from {
+  transform: scale(0.60) translateX(0);
+}
+to {
+  transform: scale(0.60) translateX(-600px);
+  }
+}
+
+.index_p_animation{
+  display: none;
+}
+
+.index_p_animation2{
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  animation: scroll 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes scroll{
+from {
+  transform: translateX(800px);
+  }
+to {
+  transform: translateX(0);
+  }
+}
 
 .index_carrouselContainer{
   position: relative;
