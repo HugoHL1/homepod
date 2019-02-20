@@ -16,7 +16,7 @@ body{
 .header_container{
 	display: flex;
 	justify-content: space-between;
-	width: 1350px;
+	width: 90%;
 	margin: 0 auto;
 	height: 115px;
 	border-bottom: 1px solid #707070;
@@ -61,3 +61,89 @@ nav.header_nav ul{
 
 
 /*BODY*/
+
+.software_container{
+	width: 1350px;
+	display: flex;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.software_banner h1{
+	margin: 0 auto;
+	text-align: center;
+	font-size: 50px;
+	color: transparent;
+    background-image: linear-gradient(to left, #777dff 0px, #f154ff 200px, #f0357c 400px),linear-gradient(to right, #777dff 0px, #497ce2 200px, #37bdde 400px);
+    background-size: 51% 100%;
+    background-position: top left, top right;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 6px;
+    font-size: 54px;
+    line-height: 1.48164;
+    font-weight: 700;
+    letter-spacing: -.015em;
+}
+
+.software_container_left{
+	flex-direction: column;
+	width: 50%;
+	position: relative;
+}
+
+.software_container_left_homepodimg img{
+	width: 100%;
+	height: auto;
+}
+
+.software_container_left_homepodimg{
+	width: 100%;
+	height: auto;
+}
+
+.software_container_left_siriimg{
+	position: absolute;
+	top: 35%;
+	left: 35%;
+}
+
+.software_container_right{
+	flex-direction: column;
+}
+
+.software_text h1{
+	color: transparent;
+    background-image: linear-gradient(to left, #777dff 0px, #f154ff 200px, #f0357c 400px),linear-gradient(to right, #777dff 0px, #497ce2 200px, #37bdde 400px);
+    background-position: top left, top right;
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 6px;
+    font-size: 40px;
+	margin-right: 0px;
+}
+
+.software_text p{
+	font-size: 30px;
+}
+
+#software_text{
+	margin-top: 140px;
+}
+
+.software_container_left_siriimg img{
+	animation: pulse 5s infinite;
+}
+@keyframes pulse {
+	0% {
+	  opacity: 0;
+	}
+	50% {
+	  opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+  }
