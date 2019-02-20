@@ -5,6 +5,7 @@
 	<title>Un titre</title>
 	<meta name="description" content="site">
 	<link rel="stylesheet" type="text/css" href="../styles/techspec.css">
+	<link rel="stylesheet" href="../styles/aos.css">
 </head>
 <body id="techspec_body">
 	<header id="header">
@@ -27,15 +28,14 @@
 	<main id="techspec_main">
 		<div class="techspec_submain">
 			<div class="techspec_leftbox">
-				<h2 class="techspec_boxtitle">Une petite enceinte. <br/>
-	Du très grand son.</h2>
-				<p class="techspec_desc">
+				<h2 class="techspec_boxtitle" id="techspech_firstboxtitle">Une petite enceinte. <br/> Du très grand son.</h2>
+				<p class="techspec_desc" id="techspec_firstdesc">
 				Le HomePod est conçu pour créer un son riche et nuancé impressionnant pour sa taille. Il associe des technologies audio développées par Apple à des logiciels sophistiqués pour livrer un son extrêmement précis qui emplit toute la pièce. Et avec moins de 18 cm de hauteur, il est à l’aise partout dans la maison.
 				</p>
 			</div>
 			<div class="techspec_rightbox">
-				<img src="../images/part_1.jpg" class="techspec_illustration" />
-				<div class="techspec_textcard techspecleft">
+				<img src="../images/part_1.jpg" class="techspec_illustration" alt="image composant 1"/>
+				<div class="techspec_textcard_rside" id="techspec_firsttext">
 					<h4 class="techspec_cardtitle">Des basses profondes <br/>qui emplissent l’espace.</h4>
 					<p class="techspec_textcard_subtext">
 					Le boomer longue portée conçu par Apple est placé au sommet de l’enceinte, orienté vers le haut, ce qui crée une large gamme de basses profondes qui surpasse celle de n’importe quelle enceinte traditionnelle. Un ensemble de six micros, associé à un micro interne avec égaliseur de basses, analyse et compense l’effet de la pièce sur la réponse dans les graves, afin de produire un son riche et régulier. Un puissant moteur pilote le diaphragme sur 20 mm, un exploit pour une enceinte de cette taille. Ainsi les basses se détachent parfaitement, même à faible volume.
@@ -45,8 +45,8 @@
 		</div>
 		<div class="techspec_submain next">
 			<div id="techspec_rightbox_leftmove">
-				<img src="../images/part_1.jpg" class="techspec_illustration" />
-				<div class="techspec_textcard">
+				<img src="../images/part_2.jpg" class="techspec_illustration" alt="image composant 2"/>
+				<div class="techspec_textcard_lside">
 					<h4 class="techspec_cardtitle">Même de loin,<br/> il vous entend très bien.</h4>
 					<p class="techspec_textcard_subtext">
 					Grâce à six micros placés en cercle, le HomePod capte le son dans toute la pièce. Lorsque vous dites « Dis Siri », le traitement avancé du signal, associé à l’annulation de l’écho et du bruit, permet au HomePod de vous entendre sans que vous ayez à élever la voix, même si vous êtes à l’autre bout de la pièce et que la musique est forte. Dès que le HomePod reconnaît les mots « Dis Siri », ce que vous dites est chiffré et envoyé de façon anonyme aux serveurs Apple, sans être relié à votre identifiant Apple.
@@ -68,9 +68,9 @@
 				</p>
 			</div>
 			<div class="techspec_rightbox" id="techspec_lastsubmain">
-				<img src="../images/part_3.jpg" class="techspec_illustration" />
-				<div class="techspec_textcard">
-					<h4 class="techspec_cardtitle">Un son haute fidélité incroyablement enveloppant.</h4>
+				<img src="../images/part_3.jpg" class="techspec_illustration" alt="image composant 3"/>
+				<div class="techspec_textcard_rside">
+					<h4 class="techspec_cardtitle">Un son haute fidélité <br /> incroyablement enveloppant.</h4>
 					<p class="techspec_textcard_subtext">
 					Spécialement conçu pour le HomePod, un ensemble de sept tweeters à faisceaux acoustiques, chacun ayant son propre amplificateur, crée un contrôle directionnel exceptionnel. Dotés d’un design à pavillon replié et placés autour de la base, ils envoient le flux musical vers le centre, puis depuis le bas selon un schéma à 360°, ce qui se traduit par une sensation de l’espace très enveloppante. Cela élimine pratiquement toute réflexion sur des surfaces planes et permet d’offrir un son haute définition parfaitement cohérent.
 					</p>
@@ -80,6 +80,7 @@
 	</main>
 	<footer>
 	</footer>
+	<script src="https://code.jquery.com/jquery-3.3.1.js" ></script>
 	<script type="text/javascript" src="../scripts/script.js"></script>
 </body>
 </html>

@@ -19,9 +19,11 @@
 	color: #444;
 	background-color: #FFFFFF;
 	font-family: 'SF', sans-serif;
+	max-width: 100%;
+    overflow-x: hidden;
 }
 
-/*HEADER*/
+/*-----------------------HEADER TECHSPEC-----------------------*/
 
 .header_container{
 	display: flex;
@@ -70,7 +72,7 @@ nav.header_nav ul{
 }
 
 
-/*BODY*/
+/*-------------------------BODY TECHSPEC-----------------------*/
 #techspec_main{
     width: 980px;
     margin: 0 auto;
@@ -101,39 +103,88 @@ nav.header_nav ul{
 	justify-content: space-between;
 	margin-top: 100px;
 }
+
 .techspec_submain.next{
 	margin-top: 180px;
 }
-.techspec_textcard{
-	height: 400px;
-	width: 320px;
+.techspec_textcard_rside{
+	height: 480px;
+	width: 400px;
 	background-color: rgba(0, 0, 0, 0.7);
 	position: absolute;
-	border-radius: 12px;
+	border-radius: 90px;
 	z-index: 2;
-	top:40px;left:40px;
+	top:0px;
 	margin: 0 auto;
 	color: white;
 	text-align: center;
 	transition: transform 0.3s;
 	line-height: 1.2;
+	left: 1000px;
 }
-.techspec_rightbox:hover .techspec_textcard{
-	transform: translate(600px)
+.techspec_textcard_lside{
+	height: 480px;
+	width: 400px;
+	background-color: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	border-radius: 90px;
+	z-index: 2;
+	top:0px;
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+	transition: transform 0.3s;
+	line-height: 1.2;
+	left: -1000px;
+}
 
-}
-#techspec_rightbox_leftmove:hover .techspec_textcard{
-	transform: translate(-600px)
-}
 .techspec_cardtitle{
 	font-size: 24px;
 }
 
 .techspec_textcard_subtext{
-	margin: 12px;
+	margin: 18px;
 	font-family: "SFthin";
+	line-height: 1.4;
+	font-size: 18px;
 }
 
 #techspec_lastsubmain{
 	margin-bottom: 200px;
+}
+/*---------------------ANIMATION LEFTBOX------------------------*/
+#techspech_firstboxtitle{
+	animation: toRight 1.6s;
+	animation-fill-mode: forwards;
+}
+#techspec_firstdesc{
+	animation: toRight 1.8s;
+	animation-fill-mode: forwards;
+}
+@keyframes toRight {
+	from {
+  transform: translateX(-800px);
+  }
+to {
+  transform: translateX(0);
+  }
+}
+
+/*---------------------ANIMATION RIGHTBOX-----------------------*/
+
+@keyframes toLeft {
+	from {
+  transform: translateX(800px);
+  }
+to {
+  transform: translateX(0);
+  }
+}
+.techspec_rightbox:hover .techspec_textcard_rside{
+	transform: translate(-1000px);
+
+}
+
+#techspec_rightbox_leftmove:hover .techspec_textcard_rside{
+	transform: translate(1000px);
 }
