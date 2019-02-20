@@ -89,7 +89,7 @@ nav.header_nav ul{
 	text-align: center;
 
 }
-.techspec_leftbox, .techspec_rightbox, #techspec_rightbox_leftmove{
+.techspec_leftbox, .techspec_rightbox, .techspec_rightbox_left,  #techspec_rightbox_leftmove{
     width: 40%;
 	position: relative;
 }
@@ -172,6 +172,45 @@ to {
 
 /*---------------------ANIMATION RIGHTBOX-----------------------*/
 
+
+.techspec_rightbox:hover .techspec_textcard_rside{
+	transform: translateX(-1000px);
+
+}
+
+.techspec_rightbox_left:hover .techspec_textcard_lside{
+	transform: translateX(+1000px);
+}
+/*  */
+.techspec_boxtitle_effectl{
+	animation: toLeft 1.8s;
+	animation-fill-mode: forwards;
+}
+@keyframes toLeft {
+	from {
+  transform: translateX(800px);
+  background: red;
+  }
+to {
+  transform: translateX(0);
+  }
+}
+
+/* .techspec_desc_effectl{
+	animation: toLeft 1.8s;
+	animation-fill-mode: forwards;
+}
+
+.techspec_boxtitle_effectr{
+	animation: toRight 1.8s;
+	animation-fill-mode: forwards;
+}
+
+.techspec_desc_effectr{
+	animation: toRight 1.8s;
+	animation-fill-mode: forwards;
+}
+
 @keyframes toLeft {
 	from {
   transform: translateX(800px);
@@ -179,12 +218,4 @@ to {
 to {
   transform: translateX(0);
   }
-}
-.techspec_rightbox:hover .techspec_textcard_rside{
-	transform: translate(-1000px);
-
-}
-
-#techspec_rightbox_leftmove:hover .techspec_textcard_rside{
-	transform: translate(1000px);
-}
+} */
