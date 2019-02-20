@@ -230,7 +230,6 @@ body{
 	text-decoration: none;
 	cursor: pointer;
 }
-
 .shop_button_pay {
 	background-color: #707070;
 	border: none;
@@ -246,9 +245,6 @@ body{
 	cursor: pointer;
 }
 
-.shop_button_pay:hover {opacity: 1}
-
-.shop_button_applepay:hover {opacity: 1}
 
 
 .header_divhamburger img{
