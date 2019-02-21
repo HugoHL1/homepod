@@ -385,22 +385,16 @@ to {
 
 #footer {
     font-weight: normal;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    text-size-adjust: 100%
 }
-#footer h3{
+h3{
   display: block;
   color : black
 }
     #footer {
         font-weight: normal;
-        -webkit-text-size-adjust: 100%;
-        -ms-text-size-adjust: 100%;
-        text-size-adjust: 100%
     }
 
-    #footer,#footer:before,#footer:after,#footer *,#footer *:before,#footer *:after {
+    #footer,#footer,#footer,#footer *,#footer *:before,#footer *:after {
         box-sizing:content-box;
         margin: 0;
         padding: 2px;
@@ -422,91 +416,9 @@ to {
     }
 
     #footer,#footer input,#footer textarea,#footer select,#footer button {
-        font-synthesis: none;
-        -moz-font-feature-settings: 'kern';
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        direction: ltr;
         text-align: center
     }
 
-    #footer,#footer select,#footer button {
-        font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif
-    }
-
-    #footer input,#footer textarea {
-        font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif
-    }
-
-    #footer .ac-gf-icon::before,#footer .ac-gf-icon::after,#footer .ac-gf-more::before,#footer .ac-gf-more::after {
-        font-family: "SF Pro Icons","Apple Legacy Chevron";
-        color: black;
-        display: inline-block;
-        font-style: normal;
-        font-size: 15px;
-        line-height: 1;
-        text-decoration: underline;
-        position: relative;
-        z-index: 1;
-        alt: ''
-    }
-
-    #footer .ac-gf-icon::before,#footer .ac-gf-icon::after,#footer .ac-gf-more::before,#footer .ac-gf-more::after {
-        text-decoration: none
-    }
-
-    #footer .ac-gf-icon::before,#footer .ac-gf-more::before {
-        display: none
-    }
-
-    #footer .ac-gf-icon-after::after,#footer .ac-gf-more::after {
-        padding-left: .3em;
-        top: 0
-    }
-
-    #footer .ac-gf-icon-before::before {
-        padding-right: .3em;
-        display: inline-block;
-        top: 0
-    }
-
-    #footer .ac-gf-icon-before::after {
-        display: none
-    }
-    #footer .ac-gf-more-block {
-        margin-top: .5em
-    }
-    #footer a.ac-gf-block {
-        display: block;
-        cursor: pointer;
-        text-decoration: none
-    }
-    #footer a.ac-gf-block::before,#footer a.ac-gf-block::after {
-        content: ' ';
-        display: table
-    }
-    #footer a.ac-gf-block::after {
-        clear: both
-    }
-    #footer a.ac-gf-block:hover {
-        text-decoration: none
-    }
-    #footer a.ac-gf-block:hover .ac-gf-block-link {
-        text-decoration: underline
-    }
-    #footer a.ac-gf-block:hover .ac-gf-block-link.icon-ie-parent {
-        text-decoration: none
-    }
-    #footer a.ac-gf-block:hover .ac-gf-block-link.icon-ie-parent .icon-ie-link {
-        text-decoration: underline
-    }
-    #footer .ac-gf-block-link {
-        color: black;
-        cursor: pointer
-    }
-    #footer a.ac-gf-block-inline {
-        display: inline-block
-    }
     #footer {
         font-size: 12px;
         line-height: 1.36364;
@@ -520,20 +432,10 @@ to {
         position: relative;
         z-index: 1
     }
-    .ac-theme-dark #footer,#footer.footer-dark {
-        background-color: #222;
-        color: #ccc
-    }
-    @media only screen and (max-width: 1044px) {
-        #footer {
-            min-width:320px
-        }
-    }
-    #footer h3{
+    h3{
       font-size: 15px;
       color: black;
     }
-
     #footer a {
         color: #555;
         text-decoration: none
@@ -549,30 +451,17 @@ to {
         justify-content:center;
         text-align: center;
     }
-    #footer container{
+    container{
       display: flex;
       justify-content: space-around;
     }
     .footer_contenu{
       width: 1200px
     }
-    #footer container h3{
-      color: black
-    }
+
     .footer_legales{
       margin: bottom
       color: black
-    }
-    @supports (padding: calc(max(0px))) {
-        #footer .footer_contenu {
-            padding-left:calc(max(22px, env(safe-area-inset-left)));
-            padding-right: calc(max(22px, env(safe-area-inset-right)))
-        }
-    }
-    @media only screen and (max-width: 767px) {
-        #footer .footer_contenu {
-            padding:0
-        }
     }
     #footer .ac-gf-buystrip-hero {
         font-size: 17px;
@@ -593,12 +482,6 @@ to {
         padding-top: 4px;
         justify-content: space-around;
     }
-    @media only screen and (max-width: 480px) {
-        #footer .ac-gf-buystrip-info {
-            padding-top:8px
-        }
-    }
-
     #footer .ac-gf-buystrip-info-column {
         box-sizing: border-box;
         position: relative;
@@ -611,28 +494,16 @@ to {
         font-size : 12px;
         color : white
     }
-    #footer a .lien{
+    a .lien{
       color: blue
     }
-    #footer a{
+    a{
       color: white
     }
-    @media only screen and (max-width: 1023px) {
-        #footer .ac-gf-buystrip-info-column {
-            width:50%
-        }
-
         #footer .ac-gf-buystrip-info-column:nth-child(3) {
             clear: left
         }
     }
-
-    @media only screen and (max-width: 480px) {
-        #footer .ac-gf-buystrip-info-column {
-            width:100%
-        }
-    }
-
     #footer .footer_fleche {
         margin: 30px;
         padding-top: 3px;
@@ -640,12 +511,6 @@ to {
         text-align: center;
         z-index: 1;
         justify-content: space-between;
-    }
-
-    @media only screen and (max-width: 480px) {
-        #footer .footer_fleche {
-            padding-top:36px
-        }
     }
     #footer .ac-gf-buystrip-info-icon {
         margin: 0 auto
@@ -718,19 +583,6 @@ to {
         width: auto;
         float: none
     }
-
-    #footer.flexbox .ac-gf-buystrip-info-column {
-        -webkit-box-flex: 1;
-        -webkit-flex: 1 25%;
-        -ms-flex: 1 25%;
-        flex: 1 25%;
-        max-width: 410px
-    }
-    #footer.flexbox .ac-gf-buystrip-info-column:first-child:nth-last-child(2),#footer.flexbox .ac-gf-buystrip-info-column:last-child:nth-child(2) {
-        -webkit-flex-basis: 50%;
-        -ms-flex-preferred-size: 50%;
-        flex-basis: 50%
-    }
     #footer.flexbox .ac-gf-buystrip-info.with-2-columns {
         max-width: none
     }
@@ -742,30 +594,8 @@ to {
         font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
         margin: 0;
         margin-bottom: .8em
-    }
-    @media only screen and (max-width: 767px) {
-        #footer .footer_title {
-            font-size:12px;
-            line-height: 1.33341;
-            font-weight: 400;
-            letter-spacing: -.01em;
-            font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif
-        }
-    }
-    @media only screen and (max-width: 767px) {
-        #footer .footer_title {
-            margin-bottom:0;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            background: #f2f2f2;
-            cursor: pointer;
-            position: relative;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-            z-index: 2
-        }
+
+     }
         .ac-theme-dark #footer .footer_title,#footer.footer-dark .footer_title {
             background: #222;
             color: #ccc
@@ -776,52 +606,8 @@ to {
         .ac-theme-dark #footer .footer_title:hover,#footer.footer-dark .footer_title:hover {
             color: #fff
         }
-        #footer .footer_title:after {
-            content: '+';
-            float: right;
-            font-size: 14px;
-            font-weight: normal;
-            margin-top: -2px;
-            margin-right: 8px;
-            -webkit-transition: -webkit-transform .3s ease;
-            transition: -webkit-transform .3s ease;
-            transition: transform .3s ease;
-            transition: transform .3s ease, -webkit-transform .3s ease
-        }
-    }
-    #footer .ac-gf-footer {
-        border-top: 1px solid #d6d6d6;
-        color: #888;
-        padding: 17px 0 21px;
-        padding-bottom: calc(21px + constant(safe-area-inset-bottom))
-    }
-
-    @supports (padding: calc(max(0px))) {
-        #footer .ac-gf-footer {
-            padding-bottom:calc(max(21px, env(safe-area-inset-bottom)))
-        }
-    }
-
     #footer .ac-gf-footer:nth-child(2) {
         border-top: none
-    }
-
-    @media only screen and (max-width: 767px) {
-        #footer .ac-gf-footer {
-            padding-bottom:19px;
-            padding-bottom: calc(19px + constant(safe-area-inset-bottom))
-        }
-
-        @supports (padding: calc(max(0px))) {
-            #footer .ac-gf-footer {
-                padding-bottom:calc(max(19px, env(safe-area-inset-bottom)))
-            }
-        }
-    }
-    @media only screen and (max-width: 767px) {
-        #footer .ac-gf-footer-shop {
-            padding-bottom:10px
-        }
     }
     .ac-theme-dark #footer .ac-gf-footer-shop,#footer.footer-dark .ac-gf-footer-shop {
         border-color: #444
@@ -832,9 +618,6 @@ to {
     #footer .footer_fleche a {
         color: #0070c9
     }
-    .ac-theme-dark #footer .ac-gf-footer-shop a,#footer.footer-dark .ac-gf-footer-shop a {
-        color: #6bf
-    }
     #footer .ac-gf-footer-locale {
         float: right;
         margin-top: 5px;
@@ -842,13 +625,6 @@ to {
         top: -3px;
         z-index: 2;
         white-space: nowrap
-    }
-    @media only screen and (max-width: 767px) {
-        #footer .ac-gf-footer-locale {
-            left:-1px;
-            padding-top: 5px;
-            float: none
-        }
     }
     #footer .ac-gf-footer-locale-link {
         border-left: 1px solid #d6d6d6;
@@ -858,12 +634,8 @@ to {
     }
     .ac-theme-dark #footer .ac-gf-footer-locale-link,#footer.footer-dark .ac-gf-footer-locale-link {
         border-color: #444
-    }
-    #footer .footer_mentionsfooter_legales {
-        position: relative;
-        top: -3px;
-        z-index: 1
-    }
+        }
+
     #footer .footer_mentionsfooter_legales-link {
         border-right: 1px solid #d6d6d6;
         margin-right: 7px;
@@ -877,17 +649,6 @@ to {
         border-color: #444
     }
 
-    #footer .ac-gf-buystrip-info+.ac-gf-footer {
-        border-top: none
-    }
-    #footer .ac-gf-sosumi+.ac-gf-footer {
-        border-top: none
-    }
-    @media only screen and (max-width: 767px) {
-        #footer .ac-gf-breadcrumbs+.ac-gf-footer {
-            border-top:none
-        }
-    }
     #footer .ac-gf-buystrip {
         text-align: center
     }
