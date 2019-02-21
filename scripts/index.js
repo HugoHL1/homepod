@@ -1,25 +1,23 @@
 // Animation HomePod
 function Scroll(){
-let imgHomePod = document.querySelector('.imgHomePod');
+let imgHomePod = document.querySelector('.index_imgHomePod');
 let ypos = window.pageYOffset;
 let tAnimation = document.querySelector('.index_title_animation')
 let pAnimation = document.querySelector('.index_p_animation')
 let index_container_animation = document.querySelector('.index_container_animation')
-let index_imageHomePod = document.querySelector('.index_imageHomePod')
 
 
 
 
   if (ypos < 320){
-    imgHomePod.classList.remove("imgHomePod2")
+    imgHomePod.classList.remove("index_imgHomePod2")
     pAnimation.classList.remove("index_p_animation2")
     tAnimation.classList.remove("index_title_animation2")
-    imgHomePod.classList.add("imgHomePod4")
-    // imgHomePod.classList.add("5")
+    imgHomePod.classList.add("index_imgHomePod4")
   }
   if(ypos > 320){
-    imgHomePod.classList.add("imgHomePod2")
-    imgHomePod.classList.remove("imgHomePod4")
+    imgHomePod.classList.add("index_imgHomePod2")
+    imgHomePod.classList.remove("index_imgHomePod4")
     tAnimation.classList.add("index_title_animation2")
     pAnimation.classList.add("index_p_animation2")
   }

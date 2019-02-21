@@ -103,13 +103,13 @@ nav.header_nav ul{
   left: 250px;
 }
 
-.imgHomePod{
+.index_imgHomePod{
 	position: sticky;
 	top : -70px;
 	z-index: 1;
 }
 
-.imgHomePod2{
+.index_imgHomePod2{
 	animation: imgHomePodsizing 1s;
 	animation-fill-mode: forwards;
 }
@@ -125,7 +125,7 @@ nav.header_nav ul{
 	}
 }
 
-.imgHomePod4{
+.index_imgHomePod4{
 	animation: imgHomePodmiddle 1s;
 	animation-fill-mode: forwards;
 }
@@ -177,7 +177,7 @@ to {
 	transform: translateX(0);
 }
 }
-.index_imageHomePod{
+.index_div_HomePod{
   margin: 100px auto;
   width: 700px;
   height: 1450px;
@@ -460,7 +460,7 @@ padding: 5px;
 		display: flex;
 		position: absolute;
 	}
-	.imgHomePod2{
+	.index_imgHomePod2{
 		animation: imgHomePodsizing 1s;
 		animation-fill-mode: forwards;
 		/* transform: scale(0.60); */
@@ -504,17 +504,17 @@ padding: 5px;
 		transform: translateX(-250px) translateY(450px)
 	}
 	}
-	.index_imageHomePod{
+	.index_div_HomePod{
 		margin: 100px auto;
 		width: 700px;
 		height: 1600px;
 		display: block;
 		position: relative;
 	}
-	.imgHomePod{
+	.index_imgHomePod{
 		position: relative;
 	}
-	.imgHomePod4{
+	.index_imgHomePod4{
 		animation: imgHomePodmiddle 1s;
 		animation-fill-mode: forwards;
 	}
@@ -537,7 +537,7 @@ padding: 5px;
 		display: flex;
 		position: absolute;
 	}
-	.imgHomePod2{
+	.index_imgHomePod2{
 		animation: imgHomePodsizing 1s;
 		animation-fill-mode: forwards;
 		/* transform: scale(0.60); */
@@ -581,7 +581,7 @@ padding: 5px;
 		transform: translateX(-250px) translateY(250px)
 	}
 	}
-	.index_imageHomePod{
+	.index_div_HomePod{
 		width: 100%;
 		height: auto;
 		margin: 100px auto;
@@ -589,12 +589,12 @@ padding: 5px;
 		display: block;
 		position: relative;
 	}
-	.imgHomePod{
+	.index_imgHomePod{
 		width: 100%;
 		height: auto;
 		position: relative;
 	}
-	.imgHomePod4{
+	.index_imgHomePod4{
 		animation: imgHomePodmiddle 1s;
 		animation-fill-mode: forwards;
 	}
