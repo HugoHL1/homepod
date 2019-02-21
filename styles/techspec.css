@@ -102,7 +102,7 @@ nav.header_nav ul{
 }
 
 .techspec_illustration{
-	heigt: auto;
+	height: auto;
 	width: 400px;
 }
 .techspec_submain{
@@ -232,7 +232,7 @@ to {
 .techspec_caracteristique{
    margin: 0 auto;
    width: 50%;
-	 padding-bottom: 50px; 
+	 padding-bottom: 50px;
 }
 .techspec_caracteristique h2{
   padding: 1em 0;
@@ -284,7 +284,6 @@ to {
 .container_second a{
 	text-decoration: none;
 	color: black;
-	padding: ;
 	margin: 0px 10px 0px 10px;
 }
 
