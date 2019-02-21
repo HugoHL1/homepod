@@ -29,9 +29,7 @@ let index_imageHomePod = document.querySelector('.index_imageHomePod')
   //
   // }
   if(ypos > 470){
-    imgHomePod.style.position = "sticky"
-    imgHomePod.style.top = "-70px"
-    imgHomePod.style.zIndex ="1"
+    imgHomePod.classList.add("imgHomePod")
     // imgHomePod.classList.add("imgHomePod5")
     // imgHomePod.style.transitionTimingFunction= "ease"
   }

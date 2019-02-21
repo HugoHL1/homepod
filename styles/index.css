@@ -25,6 +25,10 @@ body{
 	font-family: "SFProDisplaySemiBold";
 	src: url('../fonts/SF/SF-Pro-Display-Semibold.otf');
 }
+@font-face{
+	font-family: "SFRegular";
+	src : url("../fonts/SF/SF-Pro-Display-Regular.otf")
+}
 
 /*HEADER*/
 
@@ -110,18 +114,12 @@ nav.header_nav ul{
 /* .index_container_animation2{
   position: sticky;
 } */
-/* .imgHomePod{
-	animation: imgHomePodremove 1s;
-	animation-fill-mode: forwards;
+.imgHomePod{
+	position: sticky;
+	top : -70px;
+	z-index: 1;
 }
-@keyframes imgHomePodremove{
-	from {
-	  transform: scale(0.60) translateX(-650px);
-	}
-	to {
-	  transform: scale(1) translateX(0);
-	  }
-	} */
+
 .imgHomePod2{
 	animation: imgHomePodsizing 1s;
 	animation-fill-mode: forwards;
@@ -234,11 +232,6 @@ width:100%;
 padding: 5px;
 }
 
-a span{
-	padding-top: 4px;
-	padding-left: 10px;
-	font-size: 20px;
-}
 
 .header_nav{
 	z-index: 3;
@@ -269,11 +262,18 @@ a span{
 }
 
 .index_siri_text a{
+	font-family: "SFRegular";
 	text-decoration: none;
-	color: white;
-	font-size: 35px
+	color: #FFF;
+	font-size: 30px;
+	position:relative;
 }
-
+.index_siri_text a span{
+		font-size: 30px;
+		position: absolute;
+		top : 22px;
+		padding-left: 12px;
+}
 .index_siri_img img:nth-child(1){
 	animation: pulse1 2s infinite;
 }
@@ -338,6 +338,11 @@ a span{
 	100% {
 		opacity: 0.3;
 	}
+}
+.index_carrousel{
+	transform: scale(0.9);
+  display: flex;
+  position: absolute;
 }
 
 /*FOOTER*/
@@ -481,5 +486,80 @@ a span{
 
 	.header_divhamburger img{
 		z-index: 14;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 915px)
+{
+	.index_carrousel{
+		margin-top: 200px;
+		transform: scale(0.9);
+		display: flex;
+		position: absolute;
+	}
+	.imgHomePod2{
+		animation: imgHomePodsizing 1s;
+		animation-fill-mode: forwards;
+		/* transform: scale(0.60); */
+	}
+	@keyframes imgHomePodsizing{
+	0% {
+		transform: scale(1);
+		}
+	100% {
+		transform: scale(0.60) ;
+		}
+	}
+	.index_title_animation2{
+		color: #FFF;
+		display: flex;
+		justify-content: center;
+		font-size: 30px;
+		padding-bottom: 10px;
+		letter-spacing: 2px;
+		animation: scroll 1s;
+		animation-fill-mode: forwards;
+	}
+
+	.index_p_animation2{
+		color: #FFF;
+		display: flex;
+		justify-content: center;
+		text-align: justify;
+		font-size: 25px;
+		animation: scroll 2s;
+		animation-fill-mode: forwards;
+	}
+	@keyframes scroll{
+	0% {
+		transform: translateX(1200px) translateY(0);
+		}
+	50%{
+		transform: translateX(900px) translateY(450px);
+	}
+	100%{
+		transform: translateX(-250px) translateY(450px)
+	}
+	}
+	.index_imageHomePod{
+		margin: 100px auto;
+		width: 700px;
+		height: 1600px;
+		display: block;
+		position: relative;
+	}
+	.imgHomePod{
+		position: relative;
+	}
+	.imgHomePod4{
+		animation: imgHomePodmiddle 1s;
+		animation-fill-mode: forwards;
+	}
+	@keyframes imgHomePodmiddle{
+	from {
+		transform: scale(0.60);
+	}
+	to {
+		transform: scale(1);
+		}
 	}
 }
