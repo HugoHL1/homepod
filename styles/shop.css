@@ -166,7 +166,15 @@ body{
 	border-right: none;
 	width: 1000px;
 }
+.shop_item_form_prix input{
+	width: 42px;
+	height: 30px;
+}
 
+..shop_item_form_prix button{
+	width: 40px;
+	height: 28px;
+}
 .shop_item_price_horizontale{
 	display: flex;
 	justify-content: space-between;
@@ -401,3 +409,73 @@ body{
 	  width: 40px;
 	  height: 28px;
   }
+
+/* PHONE */
+@media screen and (max-width:768px)
+{
+	.shop_main{
+		width: 100%;
+		margin-top: 20px;
+	}
+	.shop_item_price_box{
+		width: 100%;
+		border-top: none;
+	}
+	.shop_item1{
+		width: 80%;
+		flex-direction: column;
+		margin: 0 auto;
+	}
+	.shop_item1_box{
+		padding: 0;
+		width: 100%;
+	}
+	.shop_item1_horizontale1{
+		margin-left: 0;
+		flex-wrap: wrap;
+		margin-bottom: 10px;
+		border-bottom: none;
+	}
+	.shop_item1_subhorizontale{
+		margin-left: 0;
+	}
+	.shop_item_form_prix{
+		justify-content: flex-end;
+	}
+	.shop_item1_recycle{
+		margin-left: 0;
+	}
+	.shop_item{
+
+	}
+	.shop_item_price{
+		width: 80%;
+		margin: 0 auto;
+	}
+	.shop_item_h3{
+		text-align: center;
+	}
+	.shop_banner{
+		margin: 0 auto;
+		width: 80%;
+		margin-bottom: 40px;
+
+	}
+	.shop_banner_icon img{
+		height : 24px;
+		width: auto;
+	}
+	.shop_item_form_prix input{
+		width: 32px;
+		height: 20px;
+	}
+
+	..shop_item_form_prix button{
+		width: 30px;
+		height: 18px;
+	}
+	.shop_item1_h2{
+		margin-right: 10px;
+		margin-bottom: 10px;
+	}
+}
