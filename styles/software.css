@@ -35,9 +35,11 @@ nav.header_nav ul{
 #logoapple{
     filter: invert(1);
 }
+
 #logoshop{
     filter: invert(1);
 }
+
 .header_container nav ul a{
 	text-decoration: none;
 	color: black;
@@ -109,8 +111,8 @@ nav.header_nav ul{
 
 .software_container_left_siriimg{
 	position: absolute;
-	top: 25%;
-	left: 35%;
+	top: 26%;
+	left: 37%;
 }
 
 .software_container_right{
@@ -170,16 +172,16 @@ nav.header_nav ul{
 
 .software_container_right_homepodimg p{
 	position: absolute;
-    top: 56%;
+	top: 56.5%;
+	left: 51%;
     transform: translate(-50%,-50%);
-	left: 50%;
 	font-size: 80px;
 	color: white;
-	
+
 }
 
 .software_container_right_homepodimg p{
-	animation: pulse 5s infinite;
+	animation: pulse 6s infinite;
 }
 @keyframes pulse {
 	0% {
@@ -192,4 +194,51 @@ nav.header_nav ul{
 		opacity: 0;
 	}
   }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+.software_subcontainer{
+	margin: 0 auto;
+	display: flex;
+	padding: 50px
+}
+
+.software_video{
+	margin-top: 20px;
+	width: 800px;
+	height: 450px;
+}
+
+.software_subcontainer_text{
+	margin-top: 200px;
+}
+
+.software_subcontainer_text h2{
+	color: black;
+    padding-bottom: 6px;
+    font-size: 45px;
+	margin-right: 0px;
+	display: flex;
+}
+
+.button_acheter{
+	position: absolute;
+	text-decoration: none;
+	color:white;
+	font-size: 30px;
+	line-height: 1.5;
+	font-weight: 400;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	background: linear-gradient(#42a1ec, #0070c9);
+	border-color: #07c;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 4px;
+}
+=======
+>>>>>>> febaf5822f102550f8216ad94641907c44abf8e3
+=======
+>>>>>>> febaf5822f102550f8216ad94641907c44abf8e3
