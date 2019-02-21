@@ -81,8 +81,8 @@ nav.header_nav ul{
 
 /*-------------------------BODY TECHSPEC-----------------------*/
 #techspec_main{
-    width: 980px;
-    margin: 0 auto;
+  width: 980px;
+  margin: 0 auto;
 	color: black;
 	flex-direction: column;
 }
@@ -97,7 +97,7 @@ nav.header_nav ul{
 
 }
 .techspec_leftbox, .techspec_rightbox, .techspec_rightbox_left,  #techspec_rightbox_leftmove{
-    width: 40%;
+  width: 40%;
 	position: relative;
 }
 
@@ -226,6 +226,30 @@ to {
   }
 }
 
+
+/*-------------------------CARACTERISTIQUE-----------------------*/
+
+.techspec_caracteristique{
+   margin: 0 auto;
+   width: 50%;
+	 padding-bottom: 50px; 
+}
+.techspec_caracteristique h2{
+  padding: 1em 0;
+  margin-top: 0;
+  margin-bottom: 1.5em;
+  border-bottom: 1px solid #d6d6d6;
+  font-size: 1.5em;
+}
+.techspec_caracteristique p{
+  margin: 0 auto;
+  font-size: 1.2em;
+}
+.techspec_caracteristique h4{
+  margin: 10px auto;
+}
+
+
 /*FOOTER*/
 
 #footer{
@@ -283,7 +307,6 @@ to {
 	padding: 10px;
 
 }
-
 
 /*----------------------------RESPONSIVE--------------------------*/
 @media screen and (min-width:768px) and (max-width:1024px)
@@ -393,7 +416,6 @@ to {
 		transition: all ease-out 0.6s;
 		justify-content: center;
 		z-index: 10;
-
 	}
 
 	.header_nav_visible{
@@ -408,7 +430,6 @@ to {
 		display: flex;
 		align-items: center;
 	}
-
 
 	.header_nav ul{
 		display: flex;
