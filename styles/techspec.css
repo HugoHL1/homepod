@@ -226,6 +226,30 @@ to {
   }
 }
 
+
+/*-------------------------CARACTERISTIQUE-----------------------*/
+
+.techspec_caracteristique{
+   margin: 0 auto;
+   width: 50%;
+	 padding-bottom: 50px; 
+}
+.techspec_caracteristique h2{
+  padding: 1em 0;
+  margin-top: 0;
+  margin-bottom: 1.5em;
+  border-bottom: 1px solid #d6d6d6;
+  font-size: 1.5em;
+}
+.techspec_caracteristique p{
+  margin: 0 auto;
+  font-size: 1.2em;
+}
+.techspec_caracteristique h4{
+  margin: 10px auto;
+}
+
+
 /*FOOTER*/
 
 #footer{
@@ -283,7 +307,6 @@ to {
 	padding: 10px;
 
 }
-
 
 /*----------------------------RESPONSIVE--------------------------*/
 @media screen and (min-width:768px) and (max-width:1024px)
