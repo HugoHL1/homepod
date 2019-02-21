@@ -151,19 +151,19 @@ to {
   transform: scale(1) translateX(0);
   }
 }
-.imgHomePod5
-{	animation: imgHomePodup 1s;
+/* .imgHomePod5
+{	animation: imgHomePoddown 1s ease-in;
 	animation-fill-mode: forwards;
 }
-@keyframes imgHomePoup{
+@keyframes imgHomePoddown{
 from {
-  transform: scale(0.60);
-}
+  transform: scale(0.60) translateX(-650px) translateY(0);
+} */
 to {
-  transform: scale(1);
+  transform: scale(0.60) translateX(-650px) translateY(1200px);
   }
 }
- .index_title_animation, .index_p_animation{
+.index_title_animation, .index_p_animation{
   display: none;
 }
 .index_title_animation2{
@@ -200,7 +200,7 @@ to {
 .index_imageHomePod{
   margin: 100px auto;
   width: 700px;
-  height: 1500px;
+  height: 1450px;
   display: block;
   position: relative;
 }
