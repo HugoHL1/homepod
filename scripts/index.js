@@ -53,6 +53,7 @@ let index_imageHomePod = document.querySelector('.index_imageHomePod')
     imgHomePod.style.position = "sticky"
     imgHomePod.style.top = "-70px"
     imgHomePod.style.zIndex ="100"
+    imgHomePod.style.transitionTimingFunction= "ease"
   }
   // if(ypos<500){
   //   imgHomePod.classList.remove("imgHomePod3")
