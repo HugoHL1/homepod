@@ -3,34 +3,12 @@ function Scroll(){
 let imgHomePod = document.querySelector('.imgHomePod');
 let ypos = window.pageYOffset;
 let tAnimation = document.querySelector('.index_title_animation')
-let pAnimation =document.querySelector('.index_p_animation')
+let pAnimation = document.querySelector('.index_p_animation')
 let index_container_animation = document.querySelector('.index_container_animation')
 let index_imageHomePod = document.querySelector('.index_imageHomePod')
 
 
-// if ((ypos > 400) && (ypos > 0 )) {
-//   imgHomePod.classList.add("imgHomePod4")
-// }
-// if ( ypos > 10)
-  // if(ypos<500){
-  //   imgHomePod.classList.remove("imgHomePod4")
-  //
-  // }
 
-  // if(ypos < 330){
-  //   imgHomePod.classList.remove("imgHomePod2")
-  //   imgHomePod.classList.remove("imgHomePod3")
-  //   // imgHomePod.classList.add("imgHomePod4")
-  //   // pAnimation.classList.add("index_p_animation")
-  //   pAnimation.classList.remove("index_p_animation2")
-  // }
-  // if (ypos<310) {
-  //   imgHomePod.classList.add("imgHomePod4")
-  //
-  // }
-  // if (ypos < 320){
-  //   imgHomePod.classList.remove("imgHomePod4")
-  // }
 
   if (ypos < 320){
     imgHomePod.classList.remove("imgHomePod2")
@@ -42,13 +20,14 @@ let index_imageHomePod = document.querySelector('.index_imageHomePod')
   if(ypos > 320){
     imgHomePod.classList.add("imgHomePod2")
     imgHomePod.classList.remove("imgHomePod4")
-  }
-  if(ypos> 320){
-    // imgHomePod.classList.add("imgHomePod3")
-    // pAnimation.classList.remove("index_p_animation")
     tAnimation.classList.add("index_title_animation2")
     pAnimation.classList.add("index_p_animation2")
   }
+  // if(ypos> 320){
+  //   // imgHomePod.classList.add("imgHomePod3")
+  //   // pAnimation.classList.remove("index_p_animation")
+  //
+  // }
   if(ypos > 470){
     imgHomePod.style.position = "sticky"
     imgHomePod.style.top = "-70px"
@@ -56,6 +35,30 @@ let index_imageHomePod = document.querySelector('.index_imageHomePod')
     // imgHomePod.classList.add("imgHomePod5")
     // imgHomePod.style.transitionTimingFunction= "ease"
   }
+
+  // if ((ypos > 400) && (ypos > 0 )) {
+  //   imgHomePod.classList.add("imgHomePod4")
+  // }
+  // if ( ypos > 10)
+    // if(ypos<500){
+    //   imgHomePod.classList.remove("imgHomePod4")
+    //
+    // }
+
+    // if(ypos < 330){
+    //   imgHomePod.classList.remove("imgHomePod2")
+    //   imgHomePod.classList.remove("imgHomePod3")
+    //   // imgHomePod.classList.add("imgHomePod4")
+    //   // pAnimation.classList.add("index_p_animation")
+    //   pAnimation.classList.remove("index_p_animation2")
+    // }
+    // if (ypos<310) {
+    //   imgHomePod.classList.add("imgHomePod4")
+    //
+    // }
+    // if (ypos < 320){
+    //   imgHomePod.classList.remove("imgHomePod4")
+    // }
   // if(ypos<500){
   //   imgHomePod.classList.remove("imgHomePod3")
   // }
@@ -101,20 +104,3 @@ setInterval(
   }
   ,20
 )
-
-
-// MENU hamburger
-
-let menuMobile = document.querySelector('.header_nav')
-let buttonHamburger = document.querySelector('.header_divhamburger img')
-
-
-
-buttonHamburger.addEventListener('click',function(){
-  if (menuMobile.classList.contains("header_nav_visible")) {
-    menuMobile.classList.remove("header_nav_visible")
-  } else {
-    menuMobile.classList.add("header_nav_visible")
-  }
-
-})

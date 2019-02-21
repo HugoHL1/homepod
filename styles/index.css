@@ -7,6 +7,8 @@ body{
 	overflow-x: hidden;
 }
 
+
+
 @font-face {
 	font-family: "SFLight";
 	src: url('../fonts/SF/SF-Pro-Display-Light.otf');
@@ -135,6 +137,7 @@ nav.header_nav ul{
 		transform: scale(0.60) translateX(-650px);
 	}
 }
+
 /* .imgHomePod3{
 	animation: imgHomePodleft 1s;
 	animation-fill-mode: forwards;
@@ -166,14 +169,20 @@ to {
 @keyframes imgHomePoddown{
 from {
   transform: scale(0.60) translateX(-650px) translateY(0);
-} */
+}
 to {
   transform: scale(0.60) translateX(-650px) translateY(1200px);
   }
+*/
+
+.index_title_animation{
+	display: none;
 }
-.index_title_animation, .index_p_animation{
+
+.index_p_animation{
   display: none;
 }
+
 .index_title_animation2{
 	color: #FFF;
 	display: flex;
@@ -229,44 +238,6 @@ a span{
 	padding-left: 10px;
 	font-size: 20px;
 }
-
-.index_offre{
-	margin-top: -250px;
-}
-
-h2{
-	display: flex;
-	justify-content: center;
-	text-align: center;
-	height: 20px;
-	color: #FFF;
-	font-size: 60px;
-	font-family: "SFCompactTextBold";
-	letter-spacing: 2px;
-}
-.index_apple_music p{
-	justify-content: center;
-	line-height: 100px;
-	height: 50px;
-	text-align: center;
-	color: #FFF;
-	font-size: 25px;
-	font-family: "SFLight";
-	letter-spacing: 2px;
-}
-
-h3{
-	display: center;
-	justify-content: center;
-	text-align: center;
-	color: #FFF;
-	font-size: 40px;
-	font-family: "SFProDisplaySemiBold";
-	letter-spacing: 2px;
-}
-
-
-
 /*FOOTER*/
 
 
