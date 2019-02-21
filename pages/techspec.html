@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<title>Un titre</title>
 	<meta name="description" content="site">
 	<link rel="stylesheet" type="text/css" href="../styles/techspec.css">
@@ -20,6 +21,9 @@
 					<li><a href="software.html" type="fonctionnalités">Fonctionnalités</a></li>
 				</ul>
 			</nav>
+			<div class="header_divhamburger">
+				<img src="../images/hamburger_icon_blanc.png" alt="bouton hamburger">
+			</div>
 			<div class="header_divshop">
 				<a id="logoshop" href="shop.html" type="acheter"><img src="../images/sac_blanc_apple.png" alt="logo panier"></a>
 			</div>
@@ -43,7 +47,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="techspec_submain next">
+		<div class="techspec_submain next" id="techspec_secondmain">
 			<div class="techspec_rightbox_left">
 				<img src="../images/part_2.jpg" class="techspec_illustration" alt="image composant 2"/>
 				<div class="techspec_textcard_lside">
@@ -78,7 +82,56 @@
 			</div>
 		</div>
 	</main>
-	<footer>
+	<footer id="footer">
+		<div class="footer_contenu">
+			<div class="footer_premierediv">
+				<container class="footer_premier">
+					<div class="footer_fleche">
+						<img src="https://www.apple.com/ac/globalfooter/3/fr_FR/assets/ac-footer/buystrip/shipping/icon_large.svg">
+						<h3 class="footer_grostitre">Livraison gratuite</h3>
+						<p class="footer_texte">Et retours gratuits. Validez votre<br>commande pour connaître<br> les dates de livraison.</p>
+						<a href="https://ensavoirplus.fr">En savoir plus ></a>
+					</div>
+					<div class="footer_fleche">
+						<img src="https://www.apple.com/ac/globalfooter/3/fr_FR/assets/ac-footer/buystrip/retail/icon_large.svg">
+						<h3 class="footer_grostitre">Retrait en Apple Store</h3>
+						<p class="footer_texte">Achetez en ligne et récupérez<br>les articles disponibles en magasin.</p>
+						<a href="https://ensavoirplus2.fr">En savoir plus ></a>
+					</div>
+					<div class="footer_fleche">
+				    <img src="https://www.apple.com/ac/globalfooter/3/fr_FR/assets/ac-footer/buystrip/help/icon_large.svg">
+						<h3 class="footer_grostitre">Faites-vous aider <span>pour l’achat</span></h3>
+						<p class="footer_texte">Une question ? Appelez un Spécialiste<br>ou chattez en ligne.</p>
+						<p class="footer_caption">Appelez le 0800 046 046.</p>
+						<a href="https://nouscontacter.fr">Nous contacter ></a>
+					</div>
+				</container>
+			</div>
+    </div>
+		<div class="footer_infos">
+		  <container>
+				<h3 class="footer_title"><a href="https://sinformeretacheter.fr">S’informer et acheter</h3>
+				<h3 class="footer_title"><a href="https://applestore.fr">Apple Store</h3>
+		    <h3 class="footer_title"><a href="https://education.fr">Éducation</h3>
+				<h3 class="footer_title"><a href="https://entreprises.fr">Entreprises</h3>
+			  <h3 class="footer_title"><a href="https://compte.fr">Compte</h3>
+				<h3 class="footer_title"><a href="https://valeurs.fr">Valeurs d’Apple</h3>
+				<h3 class="footer_title"><a href="https://apropos.fr">À propos d’Apple</h3>
+		  <container>
+		</div>
+		<container class="footer_footer_legales">
+			<div class="footer_mentionsfooter_legales">
+				<div class="footer_copyright">Copyright ©	2019 Apple Inc. Tous droits réservés.</div>
+				<div class="footer_basdepages">
+					<a class="footer_basdepage" href="/fr/privacy/privacy-policy/">Engagement de confidentialité</a>
+					<a class="footer_basdepage" href="/legal/privacy/fr/cookies/">Utilisation des cookies</a>
+					<a class="footer_basdepage" href="/fr/legal/terms/site.html">Conditions d’utilisation</a>
+					<a class="footer_basdepage" href="/fr/shop/goto/help/sales_refunds">Ventes et remboursements</a>
+					<a class="footer_basdepage" href="/fr/legal/">Mentions légales</a>
+					<a class="footer_basdepage" href="/fr/sitemap/">Plan du site</a>
+				</div>
+			</div>
+		</container>
 	</footer>
 	<!-- <script src="https://code.jquery.com/jquery-3.3.1.js" ></script> -->
 	<script type="text/javascript" src="../scripts/techspecscript.js"></script>
