@@ -1,5 +1,8 @@
+// MENU hamburger
+
 let menuMobile = document.querySelector('.header_nav')
 let buttonHamburger = document.querySelector('.header_divhamburger img')
+
 
 
 buttonHamburger.addEventListener('click',function(){
