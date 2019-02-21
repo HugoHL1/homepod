@@ -209,6 +209,8 @@ nav.header_nav ul{
 
 .software_subcontainer_text{
 	margin-top: 200px;
+	display: flex;
+	justify-content: center;
 }
 
 .software_subcontainer_text h2{
@@ -216,7 +218,11 @@ nav.header_nav ul{
     padding-bottom: 6px;
     font-size: 45px;
 	margin-right: 0px;
-	display: flex;
+	text-align: center;
+}
+
+.software_subcontainer_text a{
+	margin-top: 8%;
 }
 
 .button_acheter{
