@@ -189,7 +189,7 @@ to {
 
 /*  */
 .techspec_boxtitle_effectl{
-	animation: toLeft 1.8s;
+	animation: toLeft 1.6s;
 	animation-fill-mode: forwards;
 }
 @keyframes toLeft {
@@ -207,7 +207,7 @@ to {
 }
 
 .techspec_boxtitle_effectr{
-	animation: toRight 1.8s;
+	animation: toRight 1.6s;
 	animation-fill-mode: forwards;
 }
 
