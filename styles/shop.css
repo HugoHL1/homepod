@@ -174,7 +174,7 @@ body{
 	height: 30px;
 }
 
-..shop_item_form_prix button{
+.shop_item_form_prix button{
 	width: 40px;
 	height: 28px;
 }
@@ -226,9 +226,6 @@ body{
 	align-items: center;
 }
 
-.shop_button a{
-	/* margin-top: 20px; */
-}
 
 .shop_button_acheter{
 	position: absolute;
@@ -283,7 +280,6 @@ body{
 .footer_container_second a{
 	text-decoration: none;
 	color: black;
-	padding: ;
 	margin: 0px 10px 0px 10px;
 }
 
@@ -316,9 +312,6 @@ body{
 
 @media screen and (max-width: 915px){
 
-	.header_nav{
-
-	}
 
 	.header_divhamburger img{
 		display: block;
@@ -427,9 +420,7 @@ body{
 	.shop_item1_recycle{
 		margin-left: 0;
 	}
-	.shop_item{
 
-	}
 	.shop_item_price{
 		width: 600px;
 		margin: 0 auto;
@@ -455,7 +446,7 @@ body{
 	  height: 30px;
   }
 
-  ..shop_item_form_prix button{
+  .shop_item_form_prix button{
 	  width: 40px;
 	  height: 28px;
   }
@@ -495,9 +486,7 @@ body{
 	.shop_item1_recycle{
 		margin-left: 0;
 	}
-	.shop_item{
 
-	}
 	.shop_item_price{
 		width: 80%;
 		margin: 0 auto;
@@ -520,7 +509,7 @@ body{
 		height: 20px;
 	}
 
-	..shop_item_form_prix button{
+	.shop_item_form_prix button{
 		width: 30px;
 		height: 18px;
 	}
