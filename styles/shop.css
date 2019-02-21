@@ -65,8 +65,8 @@ body{
 
 .shop_main{
     width: 980px;
-    margin: 0 auto;
-    margin-top: 50px;
+    margin: 50px auto 100px;
+    /* margin-top: 50px; */
 }
 
 .shop_banner{
@@ -90,14 +90,13 @@ body{
 }
 
 .shop_item1{
-    width: 980px;
+  width: 980px;
 	border-style: solid;
 	border-top: 1px solid #707070;
 	border-bottom: 1px solid #707070;
 	border-left: none;
 	border-right: none;
-	padding: 20px;
-	padding-right: 0px;
+	padding: 20px 0px;
 	display: flex;
 }
 
@@ -165,6 +164,7 @@ body{
 .shop_item_price_box{
 	border-top: 1px solid #707070;
 	border-bottom: 1px solid #707070;
+	height: 145px;
 	border-left: none;
 	border-right: none;
 	width: 1000px;
@@ -220,20 +220,21 @@ body{
 }
 
 .shop_button{
+	margin-top: 80px;
 	display: flex;
-	justify-items: right;
-
+	justify-content: flex-end;
+	align-items: center;
 }
 
 .shop_button a{
-	justify-items: right;
+	/* margin-top: 20px; */
 }
 
 .shop_button_acheter{
 	position: absolute;
 	text-decoration: none;
 	color:white;
-	font-size: 30px;
+	font-size: 25px;
 	line-height: 1.5;
 	font-weight: 400;
 	padding-left: 10px;
@@ -450,8 +451,8 @@ body{
   }
 
   .shop_item_form_prix input{
-	  width: 30px;
-	  height: 20px;
+	  width: 42px;
+	  height: 30px;
   }
 
   ..shop_item_form_prix button{
