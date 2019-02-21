@@ -161,6 +161,7 @@ nav.header_nav ul{
 #techspec_lastsubmain{
 	margin-bottom: 200px;
 }
+
 /*---------------------ANIMATION LEFTBOX------------------------*/
 #techspech_firstboxtitle{
 	animation: toRight 1.6s;
@@ -224,6 +225,66 @@ to {
   transform: translateX(0);
   }
 }
+
+/*FOOTER*/
+
+#footer{
+	background: #F1F1F1;
+}
+
+.footer_container_first{
+	display:flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.footer_container_first div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin: 30px 0px 60px 0px;
+}
+
+.footer_container_first a{
+	text-decoration: none;
+}
+
+.container_second{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0px 17px -10px 17px;
+}
+
+.container_second a{
+	text-decoration: none;
+	color: black;
+	padding: ;
+	margin: 0px 10px 0px 10px;
+}
+
+.footer_container_third p{
+	margin-left: 25px;
+}
+
+.footer_bottom{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+.footer_bottom a{
+	margin: 0px 10px 10px 10px;
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+
+}
+
+
 /*----------------------------RESPONSIVE--------------------------*/
 @media screen and (min-width:768px) and (max-width:1024px)
 {
@@ -380,37 +441,3 @@ to {
 	}
 
 }
-
-/*FOOTER*/
-
-#footer{
-	background: #F1F1F1;
-}
-
-.footer_container_first{
-	display:flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
-}
-
-.footer_container_first div{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-}
-
-.container_second{
-	display: flex;
-}
-
-.container_second a{
-	text-decoration: none;
-}
-
-
-
-
-
-
-.
