@@ -450,8 +450,8 @@ body{
   }
 
   .shop_item_form_prix input{
-	  width: 42px;
-	  height: 30px;
+	  width: 30px;
+	  height: 20px;
   }
 
   ..shop_item_form_prix button{
