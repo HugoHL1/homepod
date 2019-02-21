@@ -13,7 +13,7 @@ body{
 	font-family: "SFLight";
 	src: url('../fonts/SF/SF-Pro-Display-Light.otf');
 }
-@@font-face {
+@font-face {
 	font-family: "SFTextSemiBoldItalic";
 	src: url('../fonts/SF/SF-Pro-Text-SemiboldItalic.otf');
 }
@@ -244,6 +244,102 @@ a span{
 	z-index: 3;
 }
 
+/*BODY*/
+
+.index_siri{
+	position: relative;
+	width: 100%;
+}
+
+.index_siri_img img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.index_siri_img{
+	margin-bottom: 200px;
+}
+
+.index_siri_text{
+	text-align: center;
+	position: relative;
+	top: -180px;
+}
+
+.index_siri_text a{
+	text-decoration: none;
+	color: white;
+	font-size: 35px
+}
+
+.index_siri_img img:nth-child(1){
+	animation: pulse1 2s infinite;
+}
+@keyframes pulse1 {
+	0% {
+	  opacity: 1;
+	}
+	10%{
+		transform: scale(1, 0.5);
+	}
+	50% {
+	  opacity: 0;
+	}
+	65% {
+		transform: scale(1, 1.2);
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+.index_siri_img img:nth-child(2){
+	animation: pulse2 2s infinite;
+}
+@keyframes pulse2 {
+	0% {
+		opacity: 0.5;
+	}
+	10%{
+		opacity: 0.2;
+		transform: scale(1, 0.8);
+	}
+	50% {
+		opacity: 1;
+	}
+	65% {
+		transform: scale(1, 1.1);
+	}
+	100% {
+		opacity: 0.5;
+	}
+}
+
+
+.index_siri_img img:nth-child(3){
+	animation: pulse3 1s infinite;
+}
+@keyframes pulse3 {
+	0% {
+	  opacity: 0.3;
+	}
+	10%{
+		transform: scale(1, 1.1);
+	}
+	50% {
+	  opacity: 1;
+	}
+65% {
+	transform: scale(1, 0.7);
+}
+	100% {
+		opacity: 0.3;
+	}
+}
+
 /*FOOTER*/
 
 #footer{
@@ -278,7 +374,6 @@ a span{
 .footer_container_second a{
 	text-decoration: none;
 	color: black;
-	padding: ;
 	margin: 0px 10px 0px 10px;
 }
 
@@ -307,9 +402,6 @@ a span{
 
 @media screen and (max-width: 915px){
 
-	.header_nav{
-
-	}
 
 	.header_divhamburger img{
 		display: block;
