@@ -536,6 +536,14 @@ padding: 5px;
 		max-width: 100%;
 		overflow-x: hidden;
 	}
+	.index_title h1{
+		width: 100%;
+		margin: 0;
+	}
+	.index_container_animation {
+		margin-left: 16px;
+		margin-right: 16px;
+	}
 	.index_carrousel{
 		margin-top: 200px;
 		transform: scale(0.9);
