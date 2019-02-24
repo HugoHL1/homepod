@@ -127,7 +127,7 @@ nav.header_nav ul{
 	text-align: center;
 	line-height: 1.2;
 	transition: left 0.3s;
-	left: 250%;
+	left: 300%;
 	transform: translateX(-50%);
 }
 .techspec_textcard_lside{
@@ -143,7 +143,7 @@ nav.header_nav ul{
 	text-align: center;
 	line-height: 1.2;
 	transition: left 0.3s;
-	left: -150%;
+	left: -200%;
 	transform: translateX(-50%);
 }
 

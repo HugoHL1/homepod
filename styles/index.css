@@ -541,7 +541,9 @@ padding: 5px;
 		margin: 0;
 	}
 	.index_container_animation {
-		width
+		margin-left: 16px;
+		margin-right: 16px;
+		margin-bottom: 100px;
 	}
 	.index_carrousel{
 		margin-top: 200px;
